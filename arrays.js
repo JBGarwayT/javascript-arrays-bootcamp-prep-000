@@ -33,7 +33,12 @@
   }
   
   function removeElementFromBeginningOfArray(array) {
+<<<<<<< HEAD
     return array.slice (1);
+=======
+    array.slice (0);
+    return array;
+>>>>>>> 88c0caee663c4809ae85a7dc461efeb3c848916c
   }
   
   function destructivelyRemoveElementFromEndOfArray(array, element) {
@@ -42,7 +47,12 @@
   }
   
   function removeElementFromEndOfArray(array) {
+<<<<<<< HEAD
     return array.slice (0, array.length -1 );
+=======
+    array.slice (1, array.length );
+    return array;
+>>>>>>> 88c0caee663c4809ae85a7dc461efeb3c848916c
   }
   
   
